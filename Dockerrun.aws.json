@@ -1,11 +1,12 @@
 {
-    "AWSEBDockerrunVersion": "1",
-    "Image": {
-      "Name": "registry.hub.docker.com/najwadv96/runaway:latest"
-    },
-    "Ports": [
-      {
-        "ContainerPort": 80
-      }
-    ]
-  }
+     "AWSEBDockerrunVersion": "1",
+     "Image": {
+       "Name": "registry.hub.docker.com/najwadv96/newgame:latest"
+     },
+     "Ports": [
+       {
+         "ContainerPort": 80
+       }
+     ]
+   }
+   
