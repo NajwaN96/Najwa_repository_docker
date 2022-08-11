@@ -32,7 +32,7 @@ pipeline {
        stage('Push') {
    
          steps {
-           sh 'docker push najwadv96/newgame'
+           sh 'docker push najwadv96/newgame:latest'
          }
        }
    
