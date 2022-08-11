@@ -31,7 +31,7 @@ pipeline {
 
 		stage('Push') {
 			steps {
-				sh 'docker push mohanadsinan/runaway:latest'
+				sh 'docker push najwadv96/runaway:latest'
 			}
 		}
 
